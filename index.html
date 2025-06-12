@@ -1,0 +1,629 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- ==================
+    ON-PAGE SEO CHECKLIST 
+    ================== -->
+    <!-- 1. Title Tag: Descriptive and concise. -->
+    <title>VII Congreso Internacional de Investigación y Pedagogía</title>
+    
+    <!-- 2. Meta Description: Compelling summary for search results. -->
+    <meta name="description" content="Página oficial del VII Congreso Internacional de Investigación y Pedagogía. Tema: Diversidad, diferencia y sujetos contemporáneos. Del 9 al 13 de Octubre de 2023.">
+    
+    <!-- 3. Meta Keywords: Relevant keywords for the event. -->
+    <meta name="keywords" content="congreso, investigación, pedagogía, ponencias, conferencias, talleres, uptc, educación, maestría, gestión, evento, académico, Boyacá, Colombia, 2023">
+    <meta name="author" content="Impacto Digital Colombia">
+
+    <!-- 4. Character Set & Viewport: Essential for rendering and responsiveness. -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- 5. Social Media Meta Tags (Open Graph & Twitter Cards) -->
+    <meta property="og:title" content="VII Congreso Internacional de Investigación y Pedagogía">
+    <meta property="og:description" content="Diversidad, diferencia y sujetos contemporáneos - Pensar la escuela y la universidad en tiempos de desigualdad.">
+    <meta property="og:image" content="https://www.congresoip.com/img/facebook.jpg">
+    <meta property="og:url" content="https://congresoip.com/">
+    <meta property="og:site_name" content="Congresoip.com">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="VII Congreso Internacional de Investigación y Pedagogía">
+    <meta name="twitter:description" content="Diversidad, diferencia y sujetos contemporáneos - Pensar la escuela y la universidad en tiempos de desigualdad.">
+    <meta name="twitter:image" content="https://www.congresoip.com/img/facebook.jpg">
+
+    <!-- 6. Favicon: Browser tab icon for branding. -->
+    <link rel="icon" type="image/png" href="https://www.congresoip.com/img/favicon.ico">
+    <link rel="apple-touch-icon" href="https://www.congresoip.com/img/apple-icon.png">
+
+    <!-- 7. Canonical Tag (Self-referencing for this single page) -->
+    <link rel="canonical" href="https://congresoip.com/">
+
+    <!-- External Libraries: Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <!-- Embedded CSS for Styling -->
+    <style>
+        /* General Styles & Body */
+        :root {
+            --primary-color: #21294E;
+            --secondary-color: #14959d;
+            --text-color: #555;
+            --heading-color: #333;
+            --light-bg: #f8f9fa;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            color: var(--text-color);
+            line-height: 1.6;
+            background-color: #fff;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Montserrat', sans-serif;
+            color: var(--heading-color);
+            font-weight: 700;
+        }
+
+        a {
+            color: var(--secondary-color);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        
+        section {
+            padding: 80px 0;
+        }
+        
+        .text-center { text-align: center; }
+        
+        /* Header */
+        .header-top {
+            background-color: var(--primary-color);
+            color: #fff;
+            padding: 10px 0;
+            font-size: 14px;
+        }
+        .header-top .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header-social-links a {
+            color: #fff;
+            margin-left: 15px;
+        }
+        .header-social-links a:hover {
+            color: var(--secondary-color);
+        }
+        .header-main {
+            padding: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .brand-logo img {
+            max-height: 60px;
+        }
+
+        /* Navigation */
+        .main-nav {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .main-nav li {
+            margin-left: 30px;
+            position: relative;
+        }
+        .main-nav a {
+            color: var(--primary-color);
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+        .main-nav a:hover {
+            color: var(--secondary-color);
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: url('https://placehold.co/1920x800/21294E/ffffff?text=Congreso+IP') no-repeat center center/cover;
+            color: #fff;
+            padding: 150px 0;
+            text-align: center;
+            position: relative;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(33, 41, 78, 0.7);
+        }
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+        .hero h1 {
+            font-size: 48px;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        .hero h1 .highlight-text {
+            color: var(--secondary-color);
+            display: block;
+            font-size: 32px;
+        }
+        .hero p {
+            font-size: 20px;
+            max-width: 800px;
+            margin: 0 auto 30px;
+        }
+        .rex-btn {
+            background-color: var(--secondary-color);
+            color: #fff;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-weight: 700;
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+        .rex-btn:hover {
+            background-color: #117a80;
+            color: #fff;
+            transform: translateY(-3px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        /* About Section */
+        .about-section { background-color: var(--light-bg); }
+        .section-title {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        .section-title h2 { font-size: 36px; }
+        .section-title p { color: #777; }
+        .feature-box {
+            text-align: center;
+            padding: 30px;
+            border: 1px solid #e9e9e9;
+            border-radius: 5px;
+            background: #fff;
+            margin-bottom: 30px;
+        }
+        .feature-box .icon {
+            font-size: 48px;
+            color: var(--secondary-color);
+            margin-bottom: 20px;
+        }
+        .feature-box h5 { margin-bottom: 15px; }
+
+        /* Counter Section */
+        .counter-section {
+            background: url('https://placehold.co/1920x400/333333/ffffff?text=') no-repeat center center/cover;
+            background-attachment: fixed;
+            padding: 100px 0;
+            color: #fff;
+            position: relative;
+        }
+        .counter-section::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(33, 41, 78, 0.85);
+        }
+        .counter-section .container {
+            position: relative;
+            z-index: 2;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+        }
+        .counter-box .icon-style { font-size: 40px; margin-bottom: 15px; color: var(--secondary-color); }
+        .counter-box .counter { font-size: 48px; font-weight: 700; }
+        .counter-box h6 { color: #fff; font-weight: 400; font-size: 18px; margin-top: 5px;}
+
+        /* Methodology Section */
+        .methodology-content { display: flex; align-items: center; gap: 30px; }
+        .methodology-content img { max-width: 50%; border-radius: 10px; }
+        .media { display: flex; align-items: flex-start; margin-bottom: 20px; }
+        .media .icon-style {
+            font-size: 24px;
+            color: #fff;
+            background: var(--secondary-color);
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .media-body h5 { margin-bottom: 5px; }
+
+        /* CTA Section */
+        .call_to_action {
+            background: var(--primary-color);
+            color: #fff;
+            text-align: center;
+        }
+        .call_to_action h1 { color: #fff; font-size: 36px; margin-bottom: 10px; }
+        .call_to_action h4 { font-weight: 400; opacity: 0.9; margin-bottom: 30px; }
+        
+        /* Footer */
+        footer {
+            background-color: var(--primary-color);
+            color: #a9b3d0;
+            padding: 70px 0 0;
+        }
+        .footer-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 30px;
+        }
+        .footer-section {
+            flex: 1;
+            min-width: 250px;
+        }
+        .footer-section h3 {
+            color: #fff;
+            margin-bottom: 25px;
+            font-size: 20px;
+        }
+        .footer-section p, .footer-section a {
+            color: #a9b3d0;
+            font-size: 15px;
+        }
+        .footer-section img { margin-bottom: 20px; }
+        .footer-social-links a {
+            display: inline-block;
+            width: 40px; height: 40px;
+            line-height: 40px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            border-radius: 50%;
+            margin-right: 10px;
+            transition: all 0.3s ease;
+        }
+        .footer-social-links a:hover {
+            background: var(--secondary-color);
+        }
+        .footer-section ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .footer-section ul li {
+            margin-bottom: 12px;
+        }
+        .footer-section ul a:hover {
+            color: #fff;
+            padding-left: 5px;
+        }
+        .copyright {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 25px 0;
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 14px;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 992px) {
+            .header-main { flex-direction: column; gap: 20px; }
+            .main-nav { flex-direction: column; text-align: center; gap: 15px; width: 100%; }
+            .main-nav li { margin-left: 0; }
+            .hero h1 { font-size: 36px; }
+            .hero h1 .highlight-text { font-size: 24px; }
+            .hero p { font-size: 18px; }
+            .methodology-content { flex-direction: column; }
+            .methodology-content img { max-width: 100%; }
+        }
+
+        @media (max-width: 768px) {
+            .header-top .container, .copyright { flex-direction: column; gap: 10px; text-align: center; }
+            .counter-section .container { flex-direction: column; gap: 40px; }
+            section { padding: 60px 0; }
+        }
+
+        /* Grid for features */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+    </style>
+    
+    <!-- Google Fonts for better typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- 8. Semantic Header and Navigation -->
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="header-info">
+                    <i class="fa-solid fa-calendar-days"></i> Del 9 al 13 de octubre de 2023
+                </div>
+                <div class="header-social-links">
+                    <a href="https://www.facebook.com/maestria.educacion.1481" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/maestriaeducacionuptc/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@maestriaeneducacion7660" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="header-main container">
+            <a href="#" class="brand-logo">
+                <!-- 9. Image Alt Text for logo -->
+                <img src="https://web.archive.org/web/20240223083030im_/https://www.congresoip.com/img/logo_congreso.png" alt="Logo del VII Congreso Internacional de Investigación y Pedagogía">
+            </a>
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#about">Información</a></li>
+                    <li><a href="#methodology">Metodología</a></li>
+                    <li><a href="#program">Programa</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <!-- 10. Single, Clear H1 Tag for Main Topic -->
+                <h1>
+                    <span class="highlight-text">VII CONGRESO INTERNACIONAL DE INVESTIGACIÓN Y PEDAGOGÍA</span>
+                    Pensar la escuela y la universidad en tiempos de desigualdad
+                </h1>
+                <p>Diversidad, diferencia y sujetos contemporáneos: un diálogo necesario sobre contra-conducta y nuevas subjetividades en la educación.</p>
+                <a href="#cta" class="rex-btn">Descargar Certificado <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </section>
+
+        <!-- About / Important Dates Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-title">
+                    <!-- 11. H2 for Section Headings -->
+                    <h2>Fechas Importantes</h2>
+                    <p>Cronograma clave para la participación en el congreso 2023.</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-box">
+                        <div class="icon"><i class="fa-solid fa-file-lines"></i></div>
+                        <h5>Recepción de Resúmenes</h5>
+                        <p>Finalizó el 31 de mayo de 2023. Agradecemos a todos los que enviaron sus propuestas.</p>
+                    </div>
+                    <div class="feature-box">
+                        <div class="icon"><i class="fa-solid fa-check-to-slot"></i></div>
+                        <h5>Notificación de Aceptación</h5>
+                        <p>Las notificaciones se enviaron a partir del 1 de julio de 2023.</p>
+                    </div>
+                    <div class="feature-box">
+                        <div class="icon"><i class="fa-solid fa-file-invoice"></i></div>
+                        <h5>Recepción de Ponencias</h5>
+                        <p>La recepción de ponencias completas (inscripción) finalizó el 4 de agosto de 2023.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Counter Section -->
+        <section class="counter-section">
+            <div class="container">
+                <div class="counter-box">
+                    <div class="icon-style"><i class="fas fa-chalkboard-teacher"></i></div>
+                    <div class="content">
+                        <span class="counter">500</span>+
+                        <h6>Ponentes</h6>
+                    </div>
+                </div>
+                <div class="counter-box">
+                    <div class="icon-style"><i class="fas fa-users"></i></div>
+                    <div class="content">
+                        <span class="counter">3200</span>+
+                        <h6>Participantes</h6>
+                    </div>
+                </div>
+                <div class="counter-box">
+                    <div class="icon-style"><i class="fas fa-swatchbook"></i></div>
+                    <div class="content">
+                        <span class="counter">20</span>+
+                        <h6>Ejes Temáticos</h6>
+                    </div>
+                </div>
+                <div class="counter-box">
+                    <div class="icon-style"><i class="fas fa-chalkboard"></i></div>
+                    <div class="content">
+                        <span class="counter">29</span>+
+                        <h6>Conferencias</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Methodology Section -->
+        <section id="methodology" class="methodology-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Metodología y Formas de Participación</h2>
+                    <p>Explore las distintas modalidades para unirse al diálogo académico.</p>
+                </div>
+                <div class="methodology-content">
+                    <!-- 9. Image Alt Text -->
+                    <img src="https://placehold.co/600x400/14959d/ffffff?text=Metodología" alt="Diagrama ilustrativo de la metodología del congreso">
+                    <div>
+                        <div class="media">
+                            <div class="icon-style"><i class="fas fa-network-wired"></i></div>
+                            <div class="media-body">
+                                <h5>Conferencias Magistrales</h5>
+                                <p>Presentaciones centrales a cargo de invitados internacionales, transmitidas en vivo.</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="icon-style"><i class="fas fa-chalkboard-teacher"></i></div>
+                            <div class="media-body">
+                                <h5>Paneles Disciplinares</h5>
+                                <p>Eventos presenciales para la discusión profunda de temas específicos.</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="icon-style"><i class="fas fa-bullhorn"></i></div>
+                            <div class="media-body">
+                                <h5>Ponencias y Experiencias</h5>
+                                <p>Presentaciones en mesas temáticas sobre propuestas de investigación seleccionadas.</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="icon-style"><i class="fas fa-chalkboard"></i></div>
+                            <div class="media-body">
+                                <h5>Talleres</h5>
+                                <p>Sesiones prácticas e interactivas con cupo limitado para un aprendizaje profundo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Call to Action (CTA) for Certificates -->
+        <section id="cta" class="call_to_action">
+            <div class="container">
+                <h1>Certificados de Participación</h1>
+                <h4>Genere su certificado utilizando su número de documento sin espacios ni caracteres especiales.</h4>
+                <a href="certificados-2023.php" target="_blank" class="rex-btn">Descargar mi Certificado <i class="fa-solid fa-download"></i></a>
+            </div>
+        </section>
+
+        <!-- Program Section -->
+        <section id="program" class="about-section">
+            <div class="container text-center">
+                 <div class="section-title">
+                    <h2>Programa General del Evento</h2>
+                    <p>Última actualización: 10 de octubre de 2023</p>
+                </div>
+                <a href="documentos/Programacion_general_2023.pdf" download title="Descargar programa general en PDF">
+                    <!-- 9. Image Alt Text -->
+                    <img src="pngtree-icon-with-several-people-attending-a-congress-vector-png-image_15474136.webp" alt="Icono para descargar la programación del congreso" width="220">
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 12. Semantic and Well-Designed Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-section">
+                     <!-- 9. Image Alt Text -->
+                    <img src="logo_congreso.png" alt="Logo blanco del Congreso de Investigación y Pedagogía" width="192">
+                    <p>Síganos en redes sociales para revivir los momentos del congreso y mantenerse informado sobre futuras ediciones.</p>
+                    <div class="footer-social-links">
+                        <a href="https://www.facebook.com/maestria.educacion.1481" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/maestriaeducacionuptc/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@maestriaeneducacion7660" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div id="contact" class="footer-section">
+                    <h3>Contáctanos</h3>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="tel:+5787405626"> (8) 740 56 26 - Ext. 2580</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="mailto:congresoip@uptc.edu.co"> congresoip@uptc.edu.co</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>UPTC Sede Central, Tunja, Boyacá, Colombia</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Navegación</h3>
+                    <ul>
+                        <li><a href="descargas/circular-33-sedboyaca.pdf" target="_blank">Circular Nº33 Sedboyacá</a></li>
+						<li><a href="descargas/circular_101_sed_tunja.pdf" target="_blank">Circular Nº101 SedTunja</a></li>
+                        <li><a href="#about">Información General</a></li>
+                        <li><a href="descargas/Circular_1_VII_IP.pdf" target="_blank">Circular Nº1 - Congreso IP</a></li>
+                        <li><a href="certificados-2021.php" target="_blank">Certificados 2021</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Enlaces de Interés</h3>
+                    <ul>
+                        <li><a href="https://revistas.uptc.edu.co/index.php/praxis_saber" target="_blank">Revista Praxis & Saber</a></li>
+                        <li><a href="https://revistas.uptc.edu.co/index.php/educacion_y_ciencia" target="_blank">Revista Educación y Ciencia</a></li>
+                        <li><a href="https://revistas.uptc.edu.co/index.php/semilleros_investigacion" target="_blank">Revista Habitus</a></li>
+                        <li><a href="https://www.uptc.edu.co" target="_blank">Sitio Web UPTC</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© <span id="copyright-year"></span> | VII Congreso Internacional de Investigación y Pedagogía. Todos los derechos reservados.</p>
+                <p>Development by <a href="https://www.impactodc.com/" target="_blank">Impacto Digital Colombia</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.counterup/1.0.2/jquery.counterup.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script>
+        $(document).ready(function() {
+            // Smooth scrolling for navigation links
+            $('.main-nav a[href^="#"], .rex-btn[href^="#"]').on('click', function(event) {
+                var target = $(this.getAttribute('href'));
+                if (target.length) {
+                    event.preventDefault();
+                    $('html, body').stop().animate({
+                        scrollTop: target.offset().top - 80 // Adjust for fixed header
+                    }, 800);
+                }
+            });
+
+            // Initialize CounterUp
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1500
+            });
+            
+            // Update copyright year automatically
+            $('#copyright-year').text(new Date().getFullYear());
+        });
+    </script>
+</body>
+
+</html>
